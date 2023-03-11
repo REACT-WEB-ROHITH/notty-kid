@@ -1,0 +1,108 @@
+.cardDim
+{
+    height: 100px;
+    overflow-y: scroll;
+}
+.cardDim::-webkit-scrollbar
+{
+    width: 0px;
+}
+.cardBlock
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20rem;
+    box-shadow: 20px 20px 10px 0px;
+    transform: skew(-2deg);
+    transition: 0.5;
+}
+.cardBlock:hover
+{
+    box-shadow: 20px 20px 0px 0px rgba(234, 6, 44, 0.492);
+    transform: skew(-5deg);
+    transition: 0.5s;
+}
+.rowDim
+{
+    overflow-y:scroll;
+    height: 900px;
+}
+.rowDim::-webkit-scrollbar
+{
+    width: 5px;
+    color: red;
+    background-color: rgba(242, 255, 185, 0.612);
+}
+.rowDim::-webkit-scrollbar-thumb
+{
+    /* color: rgb(0, 0, 0); */
+    background-color: rgba(251, 4, 4, 0.354);
+}
+.loadMore
+{
+    width: 100%;
+    height: 40px;
+    transform: skew(-10deg);
+    border: 0px solid;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(151, 0, 25, 0.718);
+    color: white;
+    transition: 0.5s;
+}
+.loadMore:hover
+{
+    background-color: rgba(70, 151, 0, 0.718);
+    transition: 0.5s;
+}
+.deleteIt
+{
+    width: 100%;
+    border: 0px solid;
+    transform: skew(-15deg);
+    background-color: rgba(235, 92, 111, 0.9);
+    color: white;
+    height: 35px;
+    font-size: 20px;
+}
+.deleteIt:hover
+{
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+}
+.viewIt
+{
+    width: 100%;
+    border: 0px solid;
+    transform: skew(-15deg);
+    background-color: rgb(117, 103, 245);
+    color: white;
+    height: 35px;
+    font-size: 20px;
+}
+.viewIt:hover
+{
+    transition: 0.5s;
+    background-color: rgb(22, 241, 55);
+}
+
+.dimCard
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 20px 20px 10px 0px;
+    transform: skew(-2deg);
+    transition: 0.5;
+}
+.dimCard:hover
+{
+    box-shadow: 20px 20px 0px 0px rgba(234, 6, 44, 0.492);
+    transform: skew(-5deg);
+    transition: 0.5s;
+}

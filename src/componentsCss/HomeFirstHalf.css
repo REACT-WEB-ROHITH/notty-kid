@@ -1,0 +1,158 @@
+.upper-1 {
+  background-color: transparent;
+}
+.iconMe {
+  width: 5rem;
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 10px 10px 10px 0px rgb(252, 165, 5);
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+}
+.iconMeCard {
+  width: 5rem;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.iconMe:hover {
+  background-color: rgb(255, 255, 0);
+  transform: rotate(60deg);
+  transition: 1s;
+  box-shadow: 10px 10px 10px 0px rgb(255, 255, 255);
+}
+.full-first-block {
+  background-image: url("https://img.freepik.com/free-photo/top-view-motivation-business-notes-with-notepad-dark-background-business-success-job-leadership-office-work-marketing-strategy_179666-18242.jpg?w=1380&t=st=1678352289~exp=1678352889~hmac=888898d03704f345df1487977fa57adefd446071aff278012aeb5efe98dcf6c2");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-position: 50% 20%;
+  height: 900px;
+}
+.formMainBlock {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(188, 107, 107, 0.759);
+  color: white;
+}
+.formBlock div {
+  margin-top: 20px;
+}
+.formBlock div input {
+  width: 100%;
+  border: 0px solid;
+  outline: none;
+  background-color: transparent;
+  color: wheat;
+}
+.formButton {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  border: 0px solid;
+  background-color: rgb(247, 255, 4);
+  font-weight: 1000;
+  transition: 0.5s;
+}
+.formButton:hover {
+  background-color: rgb(121, 202, 63);
+  color: white;
+  transform: skew(-10deg);
+  border-radius: 0px;
+  transition: 0.5s;
+}
+.formBlock div label {
+  font-size: 20px;
+  font-weight: 800;
+}
+.formBlock div input {
+  font-weight: 600;
+  font-size: 20px;
+}
+/* Animations */
+.animeDim {
+  animation: changeIt 20s infinite;
+}
+@keyframes changeIt {
+  0% {
+    background-image: url("https://img.freepik.com/free-photo/colorful-note-paper-pin-with-paper-clips-isolated-white_211682-111.jpg?w=1380&t=st=1678363034~exp=1678363634~hmac=b041198a3e6652818736c7fad530f93d6a4c24d4f869ff3d61e4a07c8f732d85");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: 50% 20%;
+    height: 900px;
+    transition: 1s;
+  }
+  20% {
+    background-image: url("https://img.freepik.com/premium-photo/top-view-spiral-notebook-monthly-reminder-cards-table_461922-12320.jpg?w=1380");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: 50% 20%;
+    height: 900px;
+    transition: 1s;
+  }
+  40% {
+    background-image: url("https://img.freepik.com/premium-photo/front-view-young-female-engineer-sitting-her-working-place-with-documents-job-builder-agenda-business-success-corporate-property-colours-contractor_461922-30067.jpg");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: 50% 20%;
+    height: 900px;
+    transition: 1s;
+  }
+  60% {
+    background-image: url("https://img.freepik.com/premium-photo/front-view-young-female-engineer-sitting-her-working-place-with-documents-job-builder-agenda-business-success-corporate-property-colours-contractor_461922-30067.jpg");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: 50% 20%;
+    height: 900px;
+    transition: 1s;
+  }
+  80% {
+    background-image: url("https://img.freepik.com/free-photo/top-view-motivation-business-notes-with-notepad-dark-background-business-success-job-leadership-office-work-marketing-strategy_179666-18242.jpg?w=1380&t=st=1678352289~exp=1678352889~hmac=888898d03704f345df1487977fa57adefd446071aff278012aeb5efe98dcf6c2");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: 50% 20%;
+    height: 900px;
+    transition: 1s;
+  }
+  100% {
+    background-image: url("https://img.freepik.com/premium-photo/top-view-you-can-it-written-spiral-notebook-monthly-reminder-cards-blue-background_461922-10620.jpg");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: 50% 20%;
+    height: 900px;
+    transition: 1s;
+  }
+}
+
+.invisible
+{
+    display: none;
+}
+
+
+@media screen and (max-width:700px) {
+  .formMainBlock {
+    width: 100%;
+    
+  }
+  
+}
+@media screen and (max-width:600px) {
+  .formBlock div label {
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .formBlock div input {
+    font-weight: 600;
+    font-size: 15px;
+  }
+ 
+  
+}
