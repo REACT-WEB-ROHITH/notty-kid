@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/notty-kid/static/css/main.f0a730b9.css",
-    "main.js": "/notty-kid/static/js/main.f1e4e56e.js",
+    "main.js": "/notty-kid/static/js/main.dbdc31bf.js",
     "static/js/787.c39bbf30.chunk.js": "/notty-kid/static/js/787.c39bbf30.chunk.js",
     "static/media/notebook-and-pencil.png": "/notty-kid/static/media/notebook-and-pencil.442671b3e3a644f75dc9.png",
     "static/media/banner-1.jpg": "/notty-kid/static/media/banner-1.db14fc07d5fbae8b272a.jpg",
     "index.html": "/notty-kid/index.html",
     "main.f0a730b9.css.map": "/notty-kid/static/css/main.f0a730b9.css.map",
-    "main.f1e4e56e.js.map": "/notty-kid/static/js/main.f1e4e56e.js.map",
+    "main.dbdc31bf.js.map": "/notty-kid/static/js/main.dbdc31bf.js.map",
     "787.c39bbf30.chunk.js.map": "/notty-kid/static/js/787.c39bbf30.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0a730b9.css",
-    "static/js/main.f1e4e56e.js"
+    "static/js/main.dbdc31bf.js"
   ]
 }
