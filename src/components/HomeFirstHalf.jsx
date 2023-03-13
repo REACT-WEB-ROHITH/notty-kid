@@ -45,6 +45,10 @@ function HomeFirstHalf(props) {
         allData.unshift(Lobj,...JSON.parse(localData));
         localStorage.setItem("block",JSON.stringify(allData));
       }
+      else
+      {
+        alert("PLEASE PROVIDE ALL INFORMATION BEFORE SUBMIT");
+      }
 
       // After injection processes
       firstName.current.value="";
