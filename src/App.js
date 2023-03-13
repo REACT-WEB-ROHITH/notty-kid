@@ -9,10 +9,10 @@ import DeletedNotes from './components/DeletedNotes';
 function App() {
   return (
     <>
-    <BrowserRouter basename='/noty-kid'>
+    <BrowserRouter>
     <Navbar/>
     <Routes>
-      <Route path={"/noty-kid"} element={
+      <Route path={"/"} element={
       <>
       <HomeJoinBlock/>
       </>}/>

@@ -57,7 +57,7 @@ function AllNotes() {
     <div className="container-fluid">
         <div className="row">
             <div className="col-12">
-            <Link to={"/noty-kid"}>
+            <Link to={"/"}>
             <button className="loadMore">CREATE ONE +</button>
             </Link>
             </div>
