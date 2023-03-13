@@ -7,7 +7,7 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary modifyMe">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/notty-kid/">
           📌NotePIN📍
           </Link>
           <button

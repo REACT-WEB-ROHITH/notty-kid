@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-      <Route path={"/"} element={
+      <Route path={"/notty-kid/"} element={
       <>
       <HomeJoinBlock/>
       </>}/>
